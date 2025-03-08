@@ -1,0 +1,15 @@
+How to use this theme with your grub-bootloader.
+
+Be sure that your graphics-Resolution is able to use the resolution of 1024x768 by running 
+the command "vbeinfo" at grub-shell.
+
+ 1. extract all files to "/boot/grub/themes/descent"
+ 2. edit the file "/etc/default/grub" and change/add following lines
+  * GRUB_GFXMODE=1024x768
+  * GRUB_THEME="/boot/grub/themes/descent/theme.txt"
+ 3. run "update-grub" with root-previlegs (on Ubuntusystems use "sudo update-grub")
+ 4. reboot
+ 5. look at your new awesome Bootmenu
+
+Please read the file copyright, if you want to change and distribute this theme.
+
